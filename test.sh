@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 PYTHONPATH="$(dirname $0)/..":$PYTHONPATH python ./tools/test.py ./configs/dino/dino-4scale_r50_8xb2-12e_coco1.py ./works125/epoch_24.pth  --show-dir vis --out results.pkl
