@@ -1,0 +1,1 @@
+python main.py --arch Attention_UNet && python main.py --arch segnet && python main.py --arch r2unet && python main.py --arch fcn32s && python main.py --arch fcn8s
